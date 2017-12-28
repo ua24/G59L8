@@ -16,7 +16,10 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-		view.backgroundColor = .blue
+		view.backgroundColor = UIColor(rgb: 0xC78784)
+//		view.backgroundColor = UIColor.init(displayP3Red: 14/100.0, green: 14/100.0, blue: 14/100.0, alpha: 1)
+		
+		print(Date())
     }
     
 	@IBAction func pictureSelected(_ sender: UIButton) {

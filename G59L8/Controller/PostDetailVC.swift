@@ -49,6 +49,7 @@ class PostDetailVC: UIViewController {
 	override func viewDidAppear(_ animated: Bool) {
 		super.viewDidAppear(animated)
 		log()
+		countScreenAppearences()
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -58,6 +59,15 @@ class PostDetailVC: UIViewController {
 	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		log()
+	}
+	
+	let key = "countScreenAppearences"
+	func countScreenAppearences() {
+		var count = UserDefaults.standard.integer(forKey: key)
+		print("appear count = \(count)")
+		count += 1
+		UserDefaults.standard.set(count, forKey: key)
+		UserDefaults.standard.synchronize()
 	}
 
 }

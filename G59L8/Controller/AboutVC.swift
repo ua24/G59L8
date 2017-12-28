@@ -10,10 +10,20 @@ import UIKit
 
 class AboutVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+	@IBOutlet weak var textView: UITextView!
+	
+	override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+		let code = """
+		func log(_ functionName: String = #function, line: Int = #line, file: String = #file, message: String = "") {
+		let dateFormatter = DateFormatter()
+		dateFormatter.dateFormat = "HH:mm:ss"
+		print("---\\(dateFormatter.string(from: Date())) l#:\\(line) \\(functionName) in \\((file as NSString).lastPathComponent) " + message)
+		}
+		Add Comment
+"""
+		textView.text = code
+		
+		view.endEditing(true)
+	}
 
 }
