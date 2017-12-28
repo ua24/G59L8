@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C50019D1FF56D0A0003C52C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C50019C1FF56D0A0003C52C /* Utility.swift */; };
 		4C7024AA1FF2BB610080CFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7024A91FF2BB610080CFBD /* AppDelegate.swift */; };
 		4C7024AC1FF2BB610080CFBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7024AB1FF2BB610080CFBD /* ViewController.swift */; };
 		4C7024AF1FF2BB610080CFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7024AD1FF2BB610080CFBD /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C50019C1FF56D0A0003C52C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		4C7024A61FF2BB600080CFBD /* G59L8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = G59L8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7024A91FF2BB610080CFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C7024AB1FF2BB610080CFBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				4C7024BD1FF2D83C0080CFBD /* AboutVC.swift */,
 				4C7024BF1FF2D86E0080CFBD /* HomeVC.swift */,
 				4C7024C11FF2D8830080CFBD /* PostDetailVC.swift */,
+				4C50019C1FF56D0A0003C52C /* Utility.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				4C7024AC1FF2BB610080CFBD /* ViewController.swift in Sources */,
 				4C7024C01FF2D86E0080CFBD /* HomeVC.swift in Sources */,
+				4C50019D1FF56D0A0003C52C /* Utility.swift in Sources */,
 				4C7024C21FF2D8830080CFBD /* PostDetailVC.swift in Sources */,
 				4C7024AA1FF2BB610080CFBD /* AppDelegate.swift in Sources */,
 				4C7024BE1FF2D83C0080CFBD /* AboutVC.swift in Sources */,
